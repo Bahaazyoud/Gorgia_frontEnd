@@ -1,0 +1,45 @@
+.container{
+    position:relative;
+    top:700px;
+}
+.container h3 {
+    font-family: Arial;
+    font-weight:600;
+    margin-bottom: 20px;
+
+}
+
+.category-container{
+    background-color: #b6b6b6;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    height: 210px;
+    border-radius:15px;
+    margin-top:10px;
+    background-color: #646363;
+}
+.card1 {
+    height: 210px;
+    border-radius:15px;
+    margin-top:10px;
+    background-color: #646363;
+}
+.cards {
+    border-radius:15px;
+    margin-top:20px;
+    background-color: #646363;
+}
+.view-button{
+    margin: 10px 0px 10px 150px;
+    padding:0px 10px;
+    background-color: #939393;
+    border-radius: 7px;
+    transition: .5s;
+}
+.view-button:hover{
+    background-color: #484848;
+    color: white;
+}

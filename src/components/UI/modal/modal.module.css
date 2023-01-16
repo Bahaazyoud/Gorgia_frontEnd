@@ -1,0 +1,11 @@
+.view-button{
+    margin:10px 0px 10px 0px;
+    padding:0px 10px;
+    background-color: #939393;
+    border-radius: 7px;
+    transition: .5s;
+}
+.view-button:hover{
+    background-color: #484848;
+    color: white;
+}
