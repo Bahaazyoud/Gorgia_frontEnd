@@ -1,0 +1,43 @@
+root {
+    var1: rgb(249,165,30);
+    var2: rgb(250,174,54);
+    var3: rgb(251,192,98);
+    var4: rgb(251,211,142);
+    var5: rgb(253,228,188);
+
+}
+.blogContainer {
+    width: 100%;
+    transition: 1s ease-in-out;
+    background:#C7D2D0;
+    position:relative;
+    border-radius: 10px;
+    top:700px;
+}
+
+
+.img{
+    width: 750px;
+    height: 700px;
+    background-image: url("../../../../img/food.jpeg");
+    background-size: contain;
+    -webkit-mask: url("../../../../img/blogBlob.png");
+    -webkit-mask-size:100% ;
+}
+@media (max-width: 991px){
+    .img{
+        display: none;
+    }
+    .blogContent{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px){
+    .img {
+        display: none;
+
+    }
+
+}

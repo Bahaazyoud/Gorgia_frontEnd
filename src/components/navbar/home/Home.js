@@ -1,12 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import Slider from "../../silder/Slider";
-import Interested from "./interested_in/Interested";
+import Interest from "./interested/interest";
+import BlogSection from "./blog_section/BlogSection";
+import About from "../about_us/About";
+import Reachout from "../reach_out/Reachout";
+import Jobs from "../jobs/job files/jobComponent/Job";
 
 const Home = () => {
     return (
         <>
             <Slider />
-            <Interested />
+            <About />
+            <Interest />
+            <Jobs />
+            <BlogSection />
+            <Jobs />
+            <Reachout />
         </>
     );
 }

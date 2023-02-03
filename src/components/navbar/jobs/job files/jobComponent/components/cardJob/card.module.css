@@ -1,0 +1,67 @@
+.btn_post{
+    background: #EE9C1F;
+    color: white;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.btn_post:hover{
+    background: orange;
+}
+.post_row{
+    width: 100%;
+    padding: 10px 22px;
+}
+
+.icon_row{
+    justify-content: end;
+
+}
+
+.icon_row i{
+    margin: 1px 5px;
+}
+
+.card_body{
+    padding:10px 0px;
+    background: white;
+    /* width: 32%; */
+    margin: 10px 0;
+    max-width: 440px;
+    min-width: 290px;
+    margin: 10px auto;
+}
+
+.card_img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.main_card_section{
+    margin: 0 0 30px 0;
+    padding: 10px 50px;
+    justify-content: space-evenly;
+}
+
+.place i{
+    line-height: 1.8;
+    padding: 0 7px 0 0;
+}
+
+.title h4{
+     margin: 0;
+}
+
+.card_content{
+    padding: 0 25px;
+    margin-bottom: 10px !important;
+}
+
+.card_footer{
+    padding: 0 25px; 
+}
+.card_footer p{ 
+    margin: 0; 
+}

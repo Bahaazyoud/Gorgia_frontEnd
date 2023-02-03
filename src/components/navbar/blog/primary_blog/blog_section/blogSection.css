@@ -1,0 +1,110 @@
+root {
+    var1: rgb(249,165,30);
+    var2: rgb(250,174,54);
+    var3: rgb(251,192,98);
+    var4: rgb(251,211,142);
+    var5: rgb(253,228,188);
+
+}
+/*body{*/
+/*    overflow-x: hidden;*/
+/*    font-family: 'Karla', sans-serif;*/
+/*    color: #232323;*/
+/*}*/
+.blogCont {
+    transition: 1s ease-in-out;
+    background: rgb(53,108,113);
+    position:relative;
+
+    top:680px;
+}
+.imageBlog{
+    display: block;
+}
+.date{
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+.card {
+    background-color: #fff;
+    max-width: 1000px;
+    max-height: 500px;
+    height: fit-content;
+    box-shadow: 0px 21px 25px -26px #080c21;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-column: repeat(4  , 1fr);
+}
+/*.card:nth-child(2) {*/
+/*    background-color: #fff;*/
+/*    max-width: 1000px;*/
+/*    max-height: 500px;*/
+/*    height: fit-content;*/
+/*    box-shadow: 2px 2px 5px #9E9E9E, -1px -1px 5px #9E9E9E;*/
+/*    border-radius: 3px;*/
+/*    margin-top: -100px;*/
+/*    margin-left: 10px;*/
+/*    display: grid;*/
+/*    grid-template-column: repeat(4  , 1fr);*/
+/*}*/
+.card .img-container {
+    width: 230px;
+    border-radius: 7px 0px 0px 7px;
+    grid-column:1;
+    background-color: #c1b7b4;
+    background-image: url('https://www.dropbox.com/s/7d5qt5wb2xpqeww/city-street.jpg?raw=1');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center center;
+}
+.card-content {
+    grid-column: 3 / 5;
+    padding: 0px 30px;
+    border-left: 1px solid #ccc;
+}
+h2 {
+    text-transform: uppercase;
+    color: #555;
+}
+h1 {
+    margin-bottom: 0;
+}
+.card-content .author {
+    border-top: 1px solid #cdcdcd;
+    font-weight: 700;
+    padding: 25px 0 10px 0;
+    color: #555;
+}
+
+@media only screen and (max-width:600px) {
+    .card {
+        display: block;
+        overflow-y: scroll;
+    }
+    .card .img-container {
+        height: 250px;
+        width: 100%;
+    }
+    .card-content {
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+}
+@media (max-width: 991px){
+    .blogContent{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+    }
+}
+@media (max-width: 480px) {
+    .imageBlog {
+        display: none;
+
+    }
+
+}

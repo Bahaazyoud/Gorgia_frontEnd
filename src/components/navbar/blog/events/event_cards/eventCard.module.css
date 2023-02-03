@@ -1,0 +1,90 @@
+.main{
+
+    width: 400px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: #FFFFF0;
+    box-shadow: 0px 31px 35px -26px #080c21;
+    border-radius:7px;
+    display: flex;
+    flex-direction: row;
+
+}
+.badgeMain{
+    margin: 50px 30px;
+}
+.left{
+    padding: 15px;
+}
+
+.right{
+
+    margin-top: 35px;
+    margin-right:-35px;
+}
+
+.right-img{
+
+    width: 180px;
+    border-radius: 10px;
+}
+
+.date{
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+
+.title{
+    font-size: 21px;
+    color: rgba(0,0,0,0.7);
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.paragraph{
+    height: 50px;
+}
+.tempreture{
+    padding-top: 10px;
+    font-size: 61px;
+    color: rgba(0,0,0,0.9);
+    font-weight: 100;
+}
+
+::-webkit-scrollbar {
+     width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@media (max-width: 480px) {
+    .main{
+        width:300px;
+        height: 300px;
+        margin: 10px auto;
+        background-color: #FFFFF0;
+        box-shadow: 0px 31px 35px -26px #080c21;
+        border-radius:7px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+
+    }
+
+
+}

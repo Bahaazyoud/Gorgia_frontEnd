@@ -1,0 +1,99 @@
+
+/*.categories {*/
+/*    -webkit-column-count: 3;*/
+/*    -moz-column-count: 3;*/
+/*    column-count: 3;*/
+/*    -webkit-column-width: 33%;*/
+/*    -moz-column-width: 33%;*/
+/*    column-width: 33%;*/
+/*}*/
+
+/*.categories .category {*/
+/*    -webkit-transition: all 350ms ease;*/
+/*    transition: all 350ms ease;*/
+/*    cursor: pointer;*/
+/*    margin-bottom: 12px;*/
+/*}*/
+/*@media (max-width: 991px){*/
+/*    .categories {*/
+/*        -webkit-column-count: 1;*/
+/*        -moz-column-count: 1;*/
+/*        column-count: 1;*/
+/*        -webkit-column-width:100%;*/
+/*        -moz-column-width: 100%;*/
+/*        column-width: 100%;*/
+/*    }*/
+/*    */
+/*}*/
+/*@media (max-width: 480px){*/
+/*    .categories {*/
+/*        -webkit-column-count: 1;*/
+/*        -moz-column-count: 1;*/
+/*        column-count: 1;*/
+/*        -webkit-column-width:100%;*/
+/*        -moz-column-width: 100%;*/
+/*        column-width: 100%;*/
+/*    }*/
+
+/*}*/
+
+/*.popular_movies{*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));*/
+/*    grid-column-gap:.2rem;*/
+/*    grid-row-gap: .2rem;*/
+/*}*/
+.container {
+
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 34%;
+    -moz-column-width: 34%;
+    column-width: 34%;
+    padding: 10px;
+    margin-bottom: 300px;
+    background: white;
+    border-radius:10px;
+    width: 100%;
+}
+/*@media (max-width: 991px){*/
+/*        .container {*/
+/*            -webkit-column-count: 1;*/
+/*            -moz-column-count: 1;*/
+/*            column-count: 1;*/
+/*            -webkit-column-width:100%;*/
+/*            -moz-column-width: 100%;*/
+/*            column-width: 100%;*/
+
+/*        }*/
+
+/*    }*/
+/*    @media (max-width: 480px) {*/
+/*        .container {*/
+/*            -webkit-column-count: 1;*/
+/*            -moz-column-count: 1;*/
+/*            column-count: 1;*/
+/*            -webkit-column-width: 100%;*/
+/*            -moz-column-width: 100%;*/
+/*            column-width: 100%;*/
+/*            overflow-y:scroll;*/
+
+/*        }*/
+/*    }*/
+
+.images{
+    width: 100%;
+    border-radius: .2rem;
+}
+.filter-container button{
+    padding: 10px;
+    margin:20px 5px;
+    border-radius: 6px;
+    color: black;
+}
+.filter-container .active{
+    background: rgb(53,108,113);
+    color: white;
+}

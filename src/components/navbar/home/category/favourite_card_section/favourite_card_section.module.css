@@ -1,0 +1,87 @@
+.containerCard{
+    width: 30%;
+    margin: 10px;
+}
+.favourite{
+    position: relative;
+    font-size:25px;
+    color:red ;
+}
+.icon{
+    padding: 2px;
+}
+
+body{
+    background: rgb(53, 108, 113);
+
+}
+
+.bigContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 5% ;
+    margin-bottom: 20%;
+    background: rgb(53, 108, 113);
+
+}
+.leftSideContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    border-radius: 8px;
+    height: 100vh;
+    background: #9cbdb5;
+    /*overflow-y: scroll;*/
+}
+.containerCard{
+    width:31%;
+    background-color:white;
+    border-radius: 8px;
+}
+.containerCard img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 8px 8px 0px 0px;
+
+}
+.containerCard img::after{
+
+}
+.gmap_canvas{
+width:30%
+}
+
+@media (max-width: 991px){
+    .bigContainer{
+        display: flex;
+        flex-direction:column;
+    }
+    .leftSideContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+}
+@media (max-width: 480px){
+    .bigContainer{
+        display: flex;
+        flex-direction:column;
+    }
+    .leftSideContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+}
+
+
