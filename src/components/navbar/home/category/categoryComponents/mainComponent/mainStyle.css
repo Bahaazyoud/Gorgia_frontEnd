@@ -1,0 +1,54 @@
+.mainCatBody{
+    background-color: #ABCACC;
+    padding-bottom: 60px;
+}
+.slick-slider{
+    width: 90%;
+    height: 100%;
+    margin: 10px 5%;
+}
+
+.slick-dots{
+    display: none !important;
+}
+
+.cardRestTitle{
+    margin: 0;
+}
+
+.slick-track{
+    height: 100%;
+    width:max-content !important;
+}
+
+.card-img-top{
+    height: 180px;
+    object-fit: cover;
+}
+
+.Active{
+    background-color: orange;
+}
+
+.Active div p{
+    color: white !important;
+}
+
+.card-text{
+    font-size: 14px;
+    padding-bottom: 25px;
+    padding-left: 10PX;
+    padding-right: 10PX;
+}
+
+.add-fav-btn{
+    position: absolute;
+    left: 4%;
+    bottom: 125px;
+    color: red;
+}
+
+.card-body{
+    position: relative;
+
+}

@@ -1,0 +1,40 @@
+@media (min-width: 421px) and (max-width:768px){
+    .mainCatBody{
+        display: block !important;
+    } 
+
+    .adsDivRes{
+    height: 600px !important;
+    width: 86% !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 7% !important;
+    }
+    .adsMapRes{
+    width: 86% !important;
+    display: flex;
+    justify-content: center;
+    margin-left: 7% !important;
+    }
+
+    .contact-info-footer{
+        padding-left: 16%;
+    }
+    .contact-info-footer li{
+        padding: 11px;
+    }
+    .left-footer {
+        justify-content: center;
+    }
+    .right-div {
+        position: relative;
+        top: 22%;
+    }
+   
+}
+@media (min-width: 576px) and (max-width:768px){
+    .service-column a {
+        padding-top: 15px;
+        padding-left: 34%;
+    }
+}

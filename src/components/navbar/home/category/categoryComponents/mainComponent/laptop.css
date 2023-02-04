@@ -1,0 +1,19 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+/* .slick-slide{
+    width: 275px !important;
+}
+.mainCatBody{
+    display: block !important;
+} */
+.contact-info-footer{
+    padding-left: 27%;
+}
+.left-footer {
+    justify-content: center;
+}
+}
+@media (min-width: 1024px) {
+.contact-info-footer{
+    padding-left: 27%;
+}
+}

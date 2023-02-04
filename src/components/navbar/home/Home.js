@@ -4,7 +4,7 @@ import Interest from "./interested/interest";
 import BlogSection from "./blog_section/BlogSection";
 import About from "../about_us/About";
 import Reachout from "../reach_out/Reachout";
-import Jobs from "../jobs/job files/jobComponent/Job";
+import Jobs from "./jobs/Jobs";
 
 const Home = () => {
     return (

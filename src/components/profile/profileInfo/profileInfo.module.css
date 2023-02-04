@@ -1,0 +1,22 @@
+.favourite{
+    background: black;
+    padding:10px;
+    border-radius: 7px;
+    margin-left: -1px;
+}
+.saved{
+    background: black;
+    padding:10px;
+    border-radius: 7px;
+    margin-left: 1px;
+}
+.saved button{
+    color: white;
+    display: inline;
+    width: 100%;
+}
+.favourite button{
+    color: white;
+    display: inline;
+    width: 100%;
+}

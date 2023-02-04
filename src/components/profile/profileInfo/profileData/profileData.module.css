@@ -1,0 +1,15 @@
+.container {
+    background: #4e796e;
+    padding:5%;
+    border-radius:7px;
+}
+
+.title{
+    color: white;
+    font-weight: bolder;
+}
+.paragraph{
+    background:white;
+    border-radius:7px;
+    padding:1%;
+}

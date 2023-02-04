@@ -1,0 +1,50 @@
+.job-container{
+    background-color: #356A6F;
+    padding: 50px;
+}
+
+.job-card{
+    width: 400px;
+    /* height: 210px; */
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #C7D2D0;
+    cursor: pointer;
+
+    --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: 0.375rem;
+    --bs-card-inner-border-radius: calc(0.375rem - 1px);
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(0, 0, 0, 0.03);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.col-center{
+    display: flex;
+    justify-content: center;
+
+}
+
+.job-title{
+    color:white;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-img-top{
+    height: 300px;
+}

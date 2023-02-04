@@ -1,0 +1,65 @@
+@media (max-width: 420px) {
+    .mainCatBody{
+        display: block !important;
+    } 
+
+    .adsDivRes{
+        height: 600px !important;
+        width: 86% !important;
+        display: flex;
+        justify-content: center;
+        margin-left: 7% !important;
+        }
+        .adsMapRes{
+        width: 86% !important;
+        display: flex;
+        justify-content: center;
+        margin-left: 7% !important;
+        }
+
+   
+    .contact-info-footer{
+        padding-left: 28%;
+        margin-bottom: 3rem
+    }
+    .contact-info-footer li{
+        padding: 10px;
+    }
+    .left-footer {
+        justify-content: center;
+    }
+    .right-div {
+        position: relative;
+        top: 22%;
+    }
+    .service-column a {
+        padding-top: 15px;
+        padding-left: 39%;
+        font-size: 20px;
+
+    }
+}
+
+@media (min-width: 421px) and (max-width:575px){
+
+    .contact-info-footer{
+        padding-left: 33%;
+        margin-bottom: 3rem
+    }
+    .contact-info-footer li{
+        padding: 10px;
+    }
+    .left-footer {
+        justify-content: center;
+    }
+    .right-div {
+        position: relative;
+        top: 22%;
+    }
+    .service-column a {
+        padding-top: 15px;
+        font-size: 20px;
+        padding-left: 43%;
+
+    }
+}
