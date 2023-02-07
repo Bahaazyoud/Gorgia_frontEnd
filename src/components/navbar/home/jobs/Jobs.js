@@ -18,7 +18,7 @@ function jobs() {
             <div className='row'>
                  <h1 className='job-title'>Lorem ipsum dolor sit amet, con</h1>
             </div>
-            <div className='row mt-3'>
+            <div className='row'>
                 <div className='col-sm-12 col-md-6 col-center' >
                     <div className="job-card" onClick={() => handleJobClick('job')}>
                          <img className="card-img-top" src={require('./jobsComponent/jobs-glyphs.png')} alt="Card image cap"/>

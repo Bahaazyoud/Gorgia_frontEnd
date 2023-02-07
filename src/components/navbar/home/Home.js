@@ -3,8 +3,8 @@ import Slider from "../../silder/Slider";
 import Interest from "./interested/interest";
 import BlogSection from "./blog_section/BlogSection";
 import About from "../about_us/About";
-import Reachout from "../reach_out/Reachout";
 import Jobs from "./jobs/Jobs";
+import Footer from "../../footerComponent/Footer";
 
 const Home = () => {
     return (
@@ -15,7 +15,9 @@ const Home = () => {
             <Jobs />
             <BlogSection />
             <Jobs />
-            <Reachout />
+            {/*<Reachout />*/}
+                <Footer />
+
         </>
     );
 }

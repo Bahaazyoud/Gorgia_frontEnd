@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import classes from "../../events/event_cards/eventCard.module.css";
 import Badge from "react-bootstrap/Badge";
 import Search from "../../../../UI/search/Search";
+import Footer from "../../../../footerComponent/Footer";
 
 
 const AllBlogs = props => {
@@ -21,7 +22,7 @@ const AllBlogs = props => {
             }
         ]
         return(
-            <div style={{position:"relative",top:"750px"}}>
+            <div style={{position:"relative",top:"750px",marginBottom:"100px"}}>
                 <Container fluid>
                     <h2>
                         Statics
@@ -53,6 +54,7 @@ const AllBlogs = props => {
                     </Row>
                 </Container>
             </div>
+
         );
 
 }

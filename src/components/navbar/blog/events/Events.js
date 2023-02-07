@@ -6,6 +6,7 @@ const Events = () => {
         <>
             <Container>
                 <EventCards />
+
              </Container>
         </>
     );

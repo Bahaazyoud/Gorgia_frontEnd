@@ -9,7 +9,7 @@ const InterestCategory = ({ movie }) => {
                 <Link to='/Category'><img className={classes.images}
                                           src={"https://image.tmdb.org/t/p/w500"+ movie.backdrop_path}
                  alt=""
-                 style={{background:"white",width:"11 0%"}}
+                 style={{background:"white"}}
                 /></Link>
 
         </motion.div>
