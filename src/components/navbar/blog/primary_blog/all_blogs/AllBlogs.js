@@ -22,7 +22,7 @@ const AllBlogs = props => {
             }
         ]
         return(
-            // <div style={{position:"relative",top:"750px",marginBottom:"100px"}}>
+            <div style={{position:"relative",top:"750px",marginBottom:"100px"}}>
                 <Container fluid>
                     <h2>
                         Statics
