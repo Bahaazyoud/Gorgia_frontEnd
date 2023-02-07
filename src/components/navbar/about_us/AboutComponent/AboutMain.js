@@ -27,7 +27,7 @@ function AboutMain() {
 
 
     return (
-        <div className={show ? 'about-div active' : 'about-div'} style={{position:"relative",top:"645px"}}>
+        <div className={show ? 'about-div active' : 'about-div'} style={{position:"relative",top:"687px"}}>
    <Container className='about-container col-12'>
         <Row className='mb-3'>
             <Col lg="12" >

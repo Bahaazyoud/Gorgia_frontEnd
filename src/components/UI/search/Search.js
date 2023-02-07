@@ -5,7 +5,7 @@ import classes from './search.module.css';
 import {VscSearch} from "react-icons/vsc";
 const Search = () => {
     return (
-                <div className="d-flex justify-content-end align-items-center">
+                <div className="d-flex justify-content-center align-items-center" className={classes.searchContainer}>
                     <VscSearch className={classes.fisearch}/>
                     <input className={classes.searchbar} placeholder="What are you looking for?"/>
                 </div>

@@ -1,10 +1,8 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Sliders from "../silder/Slider";
 import ProfileImage from "./ProfileImage";
 import ProfileInfo from "./profileInfo/ProfileInfo";
-import ProfileSaved from "./profileInfo/ProfileSaved";
 const Profile = () => {
     const array = [
         {

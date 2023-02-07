@@ -5,6 +5,7 @@ import Events from "../../events/Events";
 import Container from "react-bootstrap/Container";
 import classes from "../../events/event_cards/eventCard.module.css";
 import Badge from "react-bootstrap/Badge";
+import Search from "../../../../UI/search/Search";
 
 
 const AllBlogs = props => {

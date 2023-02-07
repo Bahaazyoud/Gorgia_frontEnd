@@ -76,13 +76,17 @@ a{
     text-decoration: none;
 
 }
+/*.nav-links,button,*/
+/*.nav-links li:hover{*/
+/*    background: red;*/
+/*}*/
 .nav-links li button{
     font-size:12px;
     font-weight: bolder;
     background: rgb(53,108,113);
     border-radius: 7px;
     color:white;
-     margin-right:-30px;
+    margin-right:-30px;
     padding:0px 10px;
 }
 .buttonDiv{

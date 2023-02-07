@@ -2,6 +2,7 @@ import React from "react";
 import classes from './eventCard.module.css';
 import EventCardsParagraph from "./EventCardsParagraph";
 import Badge from "react-bootstrap/Badge";
+import Search from "../../../../UI/search/Search";
 const EventCards = () => {
     const array = [
         {
@@ -39,6 +40,7 @@ const EventCards = () => {
     ];
     return (
         <>
+            <Search />
 
             {array.map(data => (
 

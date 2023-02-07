@@ -9,7 +9,7 @@ const Sliders = props => {
     };
     return  (
         <>
-        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} style={{position:"absolute",top:0,left:0,width:"110%",zIndex:-1}}>
+        <Carousel activeIndex={index} onSelect={handleSelect} indicators={false} style={{position:"absolute",top:0,left:0,width:"100%",zIndex:-1}}>
             <Carousel.Item>
 
                 <img

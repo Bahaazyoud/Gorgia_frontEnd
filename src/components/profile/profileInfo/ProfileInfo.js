@@ -8,19 +8,19 @@ import ProfileSaved from "./ProfileSaved";
 const ProfileInfo = () => {
     const [showFavourite,setShowFavourite] = useState(false);
     const [showSave,setShowSave] = useState(false);
-    const [showColorFavourite,setShowColorFavourite] = useState('black');
-    const [showColorSave,setShowColorSave] = useState('black');
+    const [showColorFavourite,setShowColorFavourite] = useState('#4e796e');
+    const [showColorSave,setShowColorSave] = useState('#4e796e');
     const showFavourites = () => {
         setShowFavourite(true);
         setShowSave(false);
-        setShowColorFavourite('#4e796e')
-        setShowColorSave('black')
+        setShowColorFavourite('orange')
+        setShowColorSave('#4e796e')
     }
     const showSaved = () => {
         setShowSave(true);
         setShowFavourite(false);
-        setShowColorFavourite('black')
-        setShowColorSave('#4e796e')
+        setShowColorFavourite('#4e796e')
+        setShowColorSave('orange')
     }
     return (
         <>

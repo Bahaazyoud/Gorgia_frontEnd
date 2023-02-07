@@ -30,7 +30,7 @@ const Interest = props =>  {
         initialSlide: 0,
         speed: 500,
         slidesToShow:3,
-        centerPadding: "120px",
+        // centerPadding: "120px",
         rows:3,
         slidesToScroll: 3,
         responsive: [
@@ -69,12 +69,12 @@ const Interest = props =>  {
                     </Col>
                 </Row>
                 <Row className="justify-content-center">
-                    <Col xs lg="6">
-                        <Slider {...settings}>
+                    <Col xs lg="12">
+                        <Slider {...settings} style={{background:"white"}}>
                             {/*<div className={classes.container}>*/}
-                                {filtered.map((item) => (
-                                    <ImageListItem key={item.id}>
-                                        <InterestCategory key={item.id} movie={item}/>
+                                {filtered.map((item,index) => (
+                                    <ImageListItem key={item.id} style={{margin:"0px"}}>
+                                        <InterestCategory key={item.id} movie={item} width={`${index ===4  ? '400px' : '300px'}`} height={`${index === 0 ? '200px' : '200px'}`} marginLeft={`${index === 0 ? '0px' : '-100px'}`}/>
                                     </ImageListItem>
                                 ))}
                             {/*</div>*/}

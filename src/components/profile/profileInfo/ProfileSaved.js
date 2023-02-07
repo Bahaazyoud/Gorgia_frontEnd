@@ -26,7 +26,7 @@ const ProfileSaved = () => {
     ];
 
     return (
-        <Row className='mb-1'>
+        <Row className='mb-1 p-3' style={{background:"#4e796e",borderRadius:"7px"}}>
             {array.map(data => (
                 <Col lg={4}>
                     <Card>
