@@ -1,6 +1,6 @@
 {
   "name": "front-end",
-  "homepage":"https://allarabinusa.com/",
+  "homepage": "https://allarabinusa.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -34,6 +34,7 @@
     "react-script-tag": "^1.1.2",
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
+    "serve": "^14.2.0",
     "styled-components": "^5.3.6",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4"
